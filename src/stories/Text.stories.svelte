@@ -3,7 +3,7 @@
     import Text from '$lib/components/ui/Text.svelte';
 
 	const { Story } = defineMeta({
-		title: 'Components/Text',
+		title: 'Components/Ui/Text',
 		component: Text,
 		tags: ['autodocs'],
 		argTypes: {
