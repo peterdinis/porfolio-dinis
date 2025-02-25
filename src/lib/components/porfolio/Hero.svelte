@@ -61,15 +61,18 @@
 		}
 	}
 	function generateBubbles(): void {
-		bubbles = Array.from({ length: 20 }, (): Bubble => ({
-			x: Math.random() * windowWidth,
-			y: Math.random() * windowHeight,
-			size: Math.random() * 100 + 50,
-			vx: (Math.random() - 0.5) * 0.5,
-			vy: (Math.random() - 0.5) * 0.5,
-			color: `rgba(59, 130, 246, ${Math.random() * 0.15 + 0.05})`,
-			animationDuration: Math.random() * 10 + 5
-		}));
+		bubbles = Array.from(
+			{ length: 20 },
+			(): Bubble => ({
+				x: Math.random() * windowWidth,
+				y: Math.random() * windowHeight,
+				size: Math.random() * 100 + 50,
+				vx: (Math.random() - 0.5) * 0.5,
+				vy: (Math.random() - 0.5) * 0.5,
+				color: `rgba(59, 130, 246, ${Math.random() * 0.15 + 0.05})`,
+				animationDuration: Math.random() * 10 + 5
+			})
+		);
 
 		bubbles = [...bubbles];
 	}
@@ -126,7 +129,7 @@
 		}, 500);
 	}
 
-    let activeSection = ""
+	let activeSection = '';
 
 	onMount(() => {
 		mounted = true;
