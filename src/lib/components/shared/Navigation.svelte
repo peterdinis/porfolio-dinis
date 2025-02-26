@@ -36,7 +36,7 @@
 	<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 justify-between">
 			<div class="flex items-center">
-				<span class="text-primary text-xl font-bold">Peter Dinis</span>
+				<span class="text-white text-xl font-bold">Peter Dinis</span>
 			</div>
 
 			<div class="hidden items-center space-x-8 md:flex">
@@ -52,7 +52,7 @@
 						{item}
 						{#if activeSection === item}
 							<span
-								class="bg-primary absolute bottom-0 left-0 h-0.5 w-full"
+								class="bg-white absolute bottom-0 left-0 h-0.5 w-full"
 								transition:scale={{ duration: 300, easing: cubicOut }}
 							></span>
 						{/if}
@@ -65,7 +65,7 @@
 			<div class="flex items-center md:hidden">
 				<button
 					on:click={toggleMenu}
-					class="hover:text-primary inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
+					class="hover:text-white inline-flex items-center justify-center rounded-md p-2 text-gray-600 hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-gray-800"
 				>
 					<svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 						{#if isMenuOpen}
