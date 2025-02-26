@@ -1,5 +1,6 @@
 <script>
 	import About from '$lib/components/porfolio/About.svelte';
+	import Contact from '$lib/components/porfolio/Contact.svelte';
 	import Hero from '$lib/components/porfolio/Hero.svelte';
 	import Projects from '$lib/components/porfolio/Projects.svelte';
 	import Navigation from '$lib/components/shared/Navigation.svelte';
@@ -11,4 +12,5 @@
 	<Hero />
 	<About />
 	<Projects />
+	<Contact />
 </div>
