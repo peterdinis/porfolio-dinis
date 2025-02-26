@@ -52,6 +52,7 @@
 	},
 	"dependencies": {
 		"lucide-svelte": "^0.476.0",
-		"mode-watcher": "^0.5.1"
+		"mode-watcher": "^0.5.1",
+		"svelte-i18n": "^4.0.1"
 	}
 }
