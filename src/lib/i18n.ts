@@ -1,6 +1,5 @@
 import { addMessages, init, locale } from 'svelte-i18n';
 
-// Import translation files
 import en from './locales/en.json';
 import sk from './locales/sk.json';
 
