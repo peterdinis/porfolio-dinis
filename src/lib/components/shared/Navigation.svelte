@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { scale, slide } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
-	import ModeToggle from './ModeToggle.svelte';
 
 	const navItems = ['Home', 'About', 'Projects', 'Contact'];
 
@@ -58,8 +57,6 @@
 						{/if}
 					</button>
 				{/each}
-
-				<ModeToggle />
 			</div>
 
 			<div class="flex items-center md:hidden">
@@ -112,8 +109,6 @@
 						</svg>
 					{/if}
 				</button>
-
-				<ModeToggle />
 			</div>
 		</div>
 	</div>
