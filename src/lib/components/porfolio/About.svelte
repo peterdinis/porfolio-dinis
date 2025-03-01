@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fly, scale } from 'svelte/transition';
-
+	import logo from "$lib/assets/me.jpeg"
 	let visibleSections: Record<string, boolean> = { about: true, projects: false, contact: false };
 
 	const skills = [
@@ -29,11 +29,11 @@
 					<div in:fly={{ x: -50, duration: 800 }}>
 						<img
 							class="h-96 w-full rounded-lg object-cover shadow-lg"
-							src="https://media.licdn.com/dms/image/v2/D4E03AQEDy6cUVkmQOw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727780920805?e=1746057600&v=beta&t=CKWRtCf9RslUyBs6hNYxy_5U0tDl1Hj7U444VnGHDfo"
+							src={logo}
 							alt="Profile"
 						/>
 						<div
-							class="bg-primary absolute -right-6 -bottom-6 rounded-lg p-4 shadow-lg"
+							class="bg-amber-600 absolute -right-6 -bottom-6 rounded-lg p-4 shadow-lg"
 							in:scale={{ delay: 300, duration: 500 }}
 						>
 							<p class="font-bold text-white">5+ Years Experience</p>
