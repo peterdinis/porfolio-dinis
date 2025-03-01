@@ -33,7 +33,7 @@
 							alt="Profile"
 						/>
 						<div
-							class="bg-amber-600 absolute -right-6 -bottom-6 rounded-lg p-4 shadow-lg"
+							class="bg-amber-600 absolute -bottom-6 rounded-lg p-4 shadow-lg"
 							in:scale={{ delay: 300, duration: 500 }}
 						>
 							<p class="font-bold text-white">5+ Years Experience</p>
