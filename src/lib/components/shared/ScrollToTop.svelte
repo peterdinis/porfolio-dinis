@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { MoveUp } from 'lucide-svelte';
 	export let showOnPx: number = 150;
 	let hidden: boolean = true;
 
@@ -25,5 +26,5 @@
 	class:hidden
 	on:click={goTop}
 >
-	Back to top
+	<MoveUp size={20} />
 </div>
