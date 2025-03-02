@@ -255,7 +255,7 @@
 				>
 					<div class="rounded-md shadow">
 						<button
-							class="bg-primary hover:bg-primary/90 flex w-full items-center justify-center rounded-md border border-transparent px-8 py-3 text-base font-medium text-white transition-all duration-200 md:px-10 md:py-4 md:text-lg"
+							class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-700 px-8 py-3 text-base font-medium text-white transition-all duration-200 hover:bg-green-800 md:px-10 md:py-4 md:text-lg"
 							on:click={() => handleNavClick('Projects')}
 						>
 							View My Work
@@ -263,7 +263,7 @@
 					</div>
 					<div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
 						<button
-							class="text-primary flex w-full items-center justify-center rounded-md border border-transparent bg-white px-8 py-3 text-base font-medium transition-all duration-200 hover:bg-gray-50 md:px-10 md:py-4 md:text-lg dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
+							class="text-primary flex w-full items-center justify-center rounded-md border border-transparent bg-orange-700 px-8 py-3 text-base font-medium transition-all duration-200 hover:bg-orange-800 md:px-10 md:py-4 md:text-lg dark:text-white"
 							on:click={() => handleNavClick('Contact')}
 						>
 							Contact Me

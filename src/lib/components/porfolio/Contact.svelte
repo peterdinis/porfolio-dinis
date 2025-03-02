@@ -166,7 +166,7 @@
 						<div>
 							<button
 								type="submit"
-								class="bg-primary hover:bg-primary/90 focus:ring-primary inline-flex w-full items-center justify-center rounded-md border border-transparent px-6 py-3 text-base font-medium text-white shadow-sm transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-none"
+								class="bg-amber-600 hover:bg-amber-700 focus:ring-primary inline-flex w-full items-center justify-center rounded-md border border-transparent px-6 py-3 text-base font-medium text-white shadow-sm transition-colors duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-none"
 							>
 								Send Message
 								<svg
