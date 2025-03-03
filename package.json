@@ -11,9 +11,7 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"format": "prettier --write .",
-		"lint": "prettier --check . && eslint .",
-		"storybook": "storybook dev -p 6006",
-		"build-storybook": "storybook build"
+		"lint": "prettier --check . && eslint ."
 	},
 	"devDependencies": {
 		"@chromatic-com/storybook": "^3.2.4",
