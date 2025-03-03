@@ -239,15 +239,8 @@
 					in:fly={{ y: 50, duration: 800, delay: 200 }}
 				>
 					<span class="block">Hi, Peter <span class="text-primary">Dinis</span></span>
-					<span class="mt-3 block">Creative Developer</span>
+					<span class="mt-3 block">Creative FullStack Developer</span>
 				</h1>
-
-				<p
-					class="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl dark:text-gray-300"
-					in:fly={{ y: 50, duration: 800, delay: 400 }}
-				>
-					I build interactive experiences and digital solutions that help businesses grow.
-				</p>
 
 				<div
 					class="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8"
